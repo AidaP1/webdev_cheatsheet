@@ -1,3 +1,38 @@
 body {
     background-color: antiquewhite;
 }
+
+header {
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: monospace;
+    display: inline;
+    vertical-align: middle;
+    font-size: 40px;
+    padding-left: 5px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: brown 2px solid;
+    padding: 10px 10px 2px;
+}
+
+th {
+    background-color: rgb(247, 171, 72);
+    vertical-align: middle;
+}
+
+.code {
+    background-color: cornsilk;
+    font-family: monospace;
+}
+
+.title_icon {
+    height: 30px;
+    vertical-align: middle;
+}

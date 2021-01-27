@@ -6,6 +6,9 @@
     </head>
     <body>
         <header>
+            <a>
+                <img class="title_icon" src="https://openclipart.org/image/800px/213242" alt="source code icon" />
+            </a>
             <h1>Cheatsheet: Semantic HTML</h1>
         </header>
         <main>
@@ -14,6 +17,7 @@
                     <th>Tag</th>
                     <th>Name</th>
                     <th>Description</th>
+                    <th>Attributes</th>
                 </thead>
                 <tbody>
                     <tr>
@@ -22,6 +26,7 @@
                         </td>
                         <td>Header</td>
                         <td>Used to hold nav links and introductory content</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -29,6 +34,7 @@
                         </td>
                         <td>Nav</td>
                         <td>Used to hold navigational links, such as menus or a table of contents. Often inside <span class="code">&lt;header&gt;</span></td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -36,6 +42,7 @@
                         </td>
                         <td>Main</td>
                         <td>used to surround the dominant content in a webpage</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -43,6 +50,7 @@
                         </td>
                         <td>Footer</td>
                         <td>Sits at the bottom containing info such as contact details, terms of use, etc.</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -50,6 +58,7 @@
                         </td>
                         <td>Article</td>
                         <td>Holds content that makes sense on it's own, like a blog post or block of self-contained info.</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -57,6 +66,7 @@
                         </td>
                         <td>Section</td>
                         <td>Defines elements in a document, like a chapter or heading, anything that comes together under the same theme.</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -64,6 +74,7 @@
                         </td>
                         <td>Aside</td>
                         <td>Used to mark out additional information that can enhance another element, but the other element can still be understood without</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -71,6 +82,7 @@
                         </td>
                         <td>Figure</td>
                         <td>Used to encapsulate media such as an image, diagram, or code, that will be referenced in the main body of the doc</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
@@ -78,14 +90,33 @@
                         </td>
                         <td>Figcaption</td>
                         <td>Adds a caption to an element and should be placed inside <span class="code">&lt;figure&gt;</span></span>, allowing them to be moved around together</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>
                             <span class="code">&lt;audio&gt;</span>
                         </td>
                         <td>Audio</td>
-                        <td>used to embed audio content, it contains an <span class="code">&lt;source&gt;</span></td>
+                        <td>used to embed audio content, it contains an <span class="code">&lt;source&gt;</span> element with a <span class="code">src</span> attribute</span></td>
+                        <td>
+                            <span class="code">controls</span> - adds audio controls<br>
+                            <span class="code">autoplay</span> - plays on load. Annoying. <br>
+                            <span class="code">src</span> - placed into <span class="code">&lt;source&gt;</span>
+                        </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <span class="code">&lt;video&gt;</span>
+                        </td>
+                        <td>Video</td>
+                        <td>makees it clear that you are trying to display a video</td>
+                        <td>
+                            <span class="code">controls</span> - adds play and pause buttons<br>
+                            <span class="code">autoplay</span> - video will play when page is loaded<br>
+                            <span class="code">loop</span> - the video plays on repeat
+                        </td>
+                    </tr>
+
                 </tbody>
             </table>
         </main>
