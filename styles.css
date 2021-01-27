@@ -1,9 +1,10 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(240, 248, 248);
 }
 
 header {
     padding-bottom: 10px;
+    text-align: center;
 }
 
 h1 {
@@ -18,17 +19,20 @@ table,
 th,
 td {
     border-collapse: collapse;
-    border: brown 2px solid;
+    border: black 2px solid;
     padding: 10px 10px 2px;
 }
 
 th {
-    background-color: rgb(247, 171, 72);
+    background-color: rgb(21, 138, 247);
+    color: white;
     vertical-align: middle;
+    font-family: monospace;
+    padding-bottom: 8px;
 }
 
 .code {
-    background-color: cornsilk;
+    background-color: rgb(193, 206, 230);
     font-family: monospace;
 }
 
